@@ -10,5 +10,6 @@ public class TestController {
     public  String hello(Model model) {
         model.addAttribute("data", "hello!!");
         return "hello";
+
     }
 }
