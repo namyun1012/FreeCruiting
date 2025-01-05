@@ -1,0 +1,59 @@
+/* Profile 전체 화면 */
+.profile-container-full {
+  width: 100%;
+  padding: 20px;
+  background-color: #f8f9fa;
+  box-sizing: border-box;
+}
+
+/* 헤더 섹션 */
+.profile-header-full {
+  padding: 20px;
+  background-color: #a7a7a7;
+  color: white;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.profile-header-full h1 {
+  font-size: 2rem;
+  margin: 0;
+}
+
+.profile-header-full p {
+  margin: 10px 0 0;
+  font-size: 1.2rem;
+}
+
+/* 파티 섹션 */
+.party-section-full h2 {
+  font-size: 1.5rem;
+  color: #343a40;
+  margin-bottom: 15px;
+}
+
+.party-list-full {
+  list-style: none;
+  padding: 0;
+}
+
+.party-item-full {
+  background-color: #e9ecef;
+  color: #343a40;
+  padding: 15px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  font-size: 1rem;
+  transition: background-color 0.3s;
+}
+
+/* 마지막 요소 마진 제거 */
+.party-item-full:last-child {
+  margin-bottom: 0;
+}
+
+/* 호버 효과 */
+.party-item-full:hover {
+  background-color: #ced4da;
+  cursor: pointer;
+}
